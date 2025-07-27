@@ -1,26 +1,11 @@
 {
-  "name": "to-do-list",
+  "name": "fullstack-node-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A template for node fullstack projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Seif-Sedky/to-do-list.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Seif-Sedky/to-do-list/issues"
-  },
-  "homepage": "https://github.com/Seif-Sedky/to-do-list#readme",
-  "dependencies": {
-    "date-fns": "^4.1.0"
   },
   "devDependencies": {
     "css-loader": "^7.1.2",
